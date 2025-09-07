@@ -1,0 +1,63 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Satisfaction Survey</h1>
+    <p id="description">This survey is for whom is very special. Please answer carefully.</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text"id="name"name="name"placeholder="김개똥"required>
+        <label for="email">Email:</label>
+        <input type="email"id="email"name="email"placeholder="example@mail.com"required>
+        <label for="number">Age:</label>
+        <input type="number"id="number"min="0"max="100"required placeholder="0">
+        </fieldset>
+        <fieldset>
+<legend>Companion Information</legend>
+        <label id="name-label">Name:</label>
+        <input type="text"id="name-label"name="name"placeholder="김개똥"required>
+        <label id="email-label">Email:</label>
+        <input type="email"id="email-label"name="email"placeholder="example@mail.com"required>
+        <label id="number-label">Age:</label>
+        <input type="number"id="number-label"min="0"max="100"required>      
+        </fieldset>
+        <fieldset>
+          <legend>Satisfaction Rating</legend>
+          <label for="dropdown">How is the service?</label>
+          <select id="dropdown">
+            <option value="bad">Bad</option>
+            <option value="good">Good</option>
+            <option value="fantastic" selected >Fantastic</option>
+            </select>
+            <legend>How did you know about us?</legend>
+          <label for="ads">Ads</label>
+          <input type="checkbox"id="ads"name="ads"value="ads">
+          <label for="recommendation">Recommendation</label>
+          <input type="checkbox"name="recommendation"id="recommendation"value="recommendation">
+    <legend>Is this your first time visiting us?</legend>
+    <label for="yes">Yes</label>
+    <input type="radio"id="yes"name="first-time"value="yes">
+    <label for="no">No</label>
+    <input
+    type="radio"id="no"name="first-time"value="no">
+</fieldset>
+<fieldset>
+  <legend>Other Opinion</legend>
+  <label for="opinion">Comments</label>
+  <textarea id="opinion"rows="10" cols="40"></textarea>
+  </fieldset>
+  <button id="submit">Submit</button>
+
+  </body>
+</html>
+
+** end of index.html **
+
